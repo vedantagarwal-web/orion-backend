@@ -5,8 +5,10 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "babel src -d dist",
-    "test": "jest"
+    "build": "echo 'No build step needed'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "aws-sdk": "^2.1150.0",
